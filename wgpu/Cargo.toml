@@ -183,7 +183,7 @@ parking_lot = ["dep:parking_lot"]
 #########################
 
 [dependencies]
-naga = { workspace = true, optional = true, features = ["termcolor"] }
+naga = { workspace = true, optional = true }
 wgpu-core = { workspace = true, optional = true }
 wgpu-types.workspace = true
 
